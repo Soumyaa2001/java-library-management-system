@@ -1,15 +1,49 @@
-# java-library-management-system
-A Java-based Library Management System using Collections (List, Set, Map, Queue) to manage books, members, borrowing, and returns. Features include book cataloging, member registration, loan tracking, and return processing.
+# 📚 Java Library Management System
 
-A console-based library management system implemented in Java using Collections framework.
+![Java](https://img.shields.io/badge/Java-8%2B-orange?logo=java)
+![Collections](https://img.shields.io/badge/Collections-Framework-blueviolet)
 
-## Features
-- 📚 **Book Management** (Add/View books)
-- 👥 **Member Registration** (Unique ID validation)
-- 🔖 **Book Borrowing** (Track loans)
-- ↩️ **Return Processing** (FIFO queue system)
-- 🛡️ **Data Integrity** (Prevents duplicates/unauthorized access)
 
-## Technologies Used
-- Java 8+
-- Java Collections Framework (`List`, `Set`, `Map`, `Queue`)
+A robust console-based library management system built with Java Collections that efficiently handles book cataloging, member management, and loan tracking.
+
+<div align="center">
+  <img src="https://media.giphy.com/media/LHZyixOnHwDDy/giphy.gif" width="300" alt="library animation">
+</div>
+
+## ✨ Key Features
+
+| Feature | Description |
+|---------|-------------|
+| **📖 Book Catalog** | Add, view and manage book inventory |
+| **👥 Member System** | Unique ID registration and validation |
+| **🔄 Loan Tracking** | Monitor borrowed books and due dates |
+| **⏳ FIFO Returns** | Fair return processing system |
+| **🛡️ Data Protection** | Encapsulated design prevents data corruption |
+
+
+🏗️ Project Structure
+
+ - 📁src/
+  - main/
+    - java/
+    - 📄 Member.java
+    - 📄 BookReturnRequest.java
+    - 📄 Library.java
+    - 📄 LibrarySystem.java
+
+
+## 🛠️ Tech Stack
+
+- **Core Java** (v8+)
+- **Collections Framework**
+  - `List<Book>` - Available books inventory
+  - `Set<String>` - Unique member IDs
+  - `Map<Integer, String>` - Book-borrower mapping
+  - `Queue<BookReturnRequest>` - Pending returns
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Java JDK 8 or higher
+- Git (optional)
+
